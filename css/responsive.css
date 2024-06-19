@@ -276,8 +276,8 @@
     .analyze_section .row {align-items: center;}
     .analyze_section .analyze_image {min-height: auto; flex-wrap: wrap; justify-content: space-between; gap: 10px;}
     .analyze_section .analyze_image img:nth-child(1) , 
-    .analyze_section .analyze_image img:nth-child(2) {position: relative; top: auto; left: auto; bottom: auto; right: auto; width: 66%;}
-    .analyze_section .analyze_image img:nth-child(1) {width: 30%;}
+    .analyze_section .analyze_image img:nth-child(2) {position: relative; top: auto; left: auto; bottom: auto; right: 120px; width: 50%;}
+    .analyze_section .analyze_image img:nth-child(1) {position: relative; top: auto; left: 100px; bottom: auto; right: auto; width: 50%;}
 
 
     /* Communication section */
@@ -285,7 +285,7 @@
     .communication_section .communication_image {min-height: auto; flex-wrap: wrap; justify-content: space-between; gap: 10px;}
     .communication_section .communication_image img:nth-child(1) , 
     .communication_section .communication_image img:nth-child(2) {position: relative; top: auto; left: auto; bottom: auto; right: auto; width: 66%;}
-    .communication_section .communication_image img:nth-child(1) {width: 30%;}
+    .communication_section .communication_image img:nth-child(1) {position: relative; top: auto; left: auto; bottom: auto; right: auto; width: 66%;}
 
     .communication_section .communication_inner {padding: 75px 0; border-radius: 0 0 0 75px;}
 
@@ -294,8 +294,8 @@
     .collaborate_section .collaborate_image {min-height: auto;}
     .collaborate_section .collaborate_text ul {padding-bottom: 0;}
     .collaborate_section .collaborate_image .img_block img {width: 60%;}
-    .collaborate_section .collaborate_image .img_block:first-child .icon_img {width: 30%;}
-    .collaborate_section .collaborate_image .img_block:last-child .icon_img {margin-left: 40px; width: 30%;}
+    .collaborate_section .collaborate_image .img_block:first-child .icon_img {position: relative; top:250px; margin-left: 80px;  width: 40%;}
+    .collaborate_section .collaborate_image .img_block:last-child .icon_img {margin-left: 0px; width: 50%;}
     .collaborate_section .collaborate_text ul li {padding-left: 65px; margin-bottom: 20px;}
     .collaborate_section .collaborate_text ul li::before {width: 50px; height: 50px;}
 
